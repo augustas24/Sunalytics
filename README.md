@@ -1,6 +1,8 @@
 # Project description
 This project comprised a major part of the subject IN2000 during the spring semester 2025 at the University of Oslo. Contributors to the project include the users leonhe, robinsm, jennykol, ingebamu, claraaz and myself.
+
 The project consists of an app which presents the estimated energy production of solar panels at a given address, based on local weather data and the surface area of the user's roof. The results are presented to the user as a line diagram and can be shown as either energy production measured Kwh or potential revenue saved. The address is located using a map-screen, which lets the user navigate to their geographical location by writing their address in a textfield. The app also provides the user with data regarding the weather phenomena at their position, in addition to information of how these phenomena affect the energy production of solar panels.
+
 The app was developed through an agile framework, applies API's such as Frost, Entur and PVGIS to fetch data, and uses libraries such as Ktor, Hilt, Room and Coil for various purposes.
 
 
