@@ -7,7 +7,7 @@ The app was developed through an agile framework, applies API's such as Frost, E
 
 
 
-# Original project description
+# Original project description from GitHub Enterprise
 
 ## Hvordan appen kjøres og avhengigheter:
 
