@@ -45,7 +45,7 @@ Coil: Et lettvektsbibliotek for bildehåndtering i Jetpack Compose.
 
 
 
-# I tillegg har vi tatt i bruk noen eksterne biblioteker som ikke har vært dekket i kurset:
+## I tillegg har vi tatt i bruk noen eksterne biblioteker som ikke har vært dekket i kurset:
 
 Mapbox SDK for Android: Brukes til kartvisning og til reverse geokoding. Mapbox gir stor fleksibilitet og støtter moderne kartvisualisering i Compose.
 
