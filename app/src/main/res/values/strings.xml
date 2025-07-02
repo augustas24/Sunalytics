@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Sunalytics</string>
+
+    <!-- Screen Titles -->
+    <string name="splash_screen">Velkommen</string>
+    <string name="home_screen">Sunalytics</string>
+    <string name="map_screen">Velg adresse</string>
+    <string name="map">Kart</string>
+    <string name="weather_screen">Værdata</string>
+
+    <!-- Info -->
+    <string name="start_info">1. Velg posisjon\n2. Fyll inn takareal\n3. Få estimat</string>
+    <string name="map_info">Du kan velge et sted ved å:
+        \n- søke etter stedsnavn
+        \n- bruke posisjonen din med knappen over
+        \n- trykke og holde på et sted i Norge
+        \n- flytte på markøren når du har en</string>
+    <string name="power_info">Estimert strømproduksjon per måned basert på historiske data.
+        \nHovedestimatet hentes fra PVGIS, et verktøy utviklet av EU-kommisjonen. Når tilgjengelig, hentes også værdata fra Frost (Meteorologisk institutt), og et alternativt estimat beregnes.</string>
+    <string name="money_info">Verdien av strømproduksjonen din i kroner.
+        \nDette beregnes ut ifra strømprisene hver måned ett år tilbake i tid, samt strømestimatet fra PVGIS.</string>
+
+    <!-- Labels -->
+    <string name="label_address">Adresse</string>
+    <string name="label_area">Takareal</string>
+    <string name="label_loss_percentage">Prosenttap</string>
+    <string name="label_snow_cm">Snø (i cm)</string>
+    <string name="label_cloud_octas">Skydekke (i oktas)</string>
+    <string name="label_temp_celsius">Temperatur (i grader celsius)</string>
+    <string name="label_which_station">Hentet fra værstasjon:</string>
+    <string name="label_km_from_position">km unna oppgitt posisjon</string>
+    <string name="label_pvgis">PVGIS</string>
+    <string name="label_frost">Frost</string>
+    <string name="label_pin">Pin</string>
+    <string name="search">Søk</string>
+
+
+    <!-- Buttons -->
+    <string name="button_get_estimate">Få estimat</string>
+    <string name="button_snow">Snø</string>
+    <string name="button_temp">Temp</string>
+    <string name="button_cloud">Sky</string>
+    <string name="button_open_weather_overlay">Info</string>
+    <string name="button_close_weather_overlay">Lukk</string>
+    <string name="button_show_weather_data">Se værdata</string>
+    <string name="power_generated">Strøm generert</string>
+    <string name="money_saved">Penger spart</string>
+    <string name="info">Info</string>
+    <string name="ok">OK</string>
+
+    <!-- Errors -->
+    <string name="error_required_field">Obligatorisk felt</string>
+    <string name="error_no_data_for_selected_weather_type">Beklager, værstasjonen har ikke målinger for dette værfenomenet…</string>
+    <string name="error_no_internet">Ingen internettilkobling</string>
+    <string name="error_no_data_from_pvgis">Beklager, klarte ikke hente data fra pvgis</string>
+    <string name="error_loading_weather_data">Beklager, klarte ikke hente data fra frost</string>
+    <string name="permission_denied">Nektet tilgang til posisjon</string>
+
+    <!-- Loading -->
+    <string name="loading_weather_data">Henter data ...</string>
+
+    <!-- Weather Textboxes -->
+    <string name="textbox_temp">Er du en av dem som tror at Norge er for kaldt til å installere solceller? Visste du at solcellepaneler yter best i -5°C? Jo mer temperaturen overstiger 25°C, desto dårligere yter de.</string>
+    <string name="textbox_snow">Snødekke kan blokkere sollys og redusere produksjonen. Ved kraftig snøfall bør panelene ryddes for snø for å opprettholde god effektivitet. Ved lettere snøfall kan vind fjerne snø for deg. </string>
+    <string name="textbox_cloud">Skydekke måles i oktas, der 1 okta tilsvarer 1/8 av himmelen dekket av skyer. 8 oktas er helt skyet, og 9 oktas inkluderer tåke. Solcellepanelet produserer fremdeles strøm, men med noe redusert effekt.</string>
+
+    <!-- HomeScreen Textboxes -->
+    <string name="infobox_roofArea">Fyll inn tilgjengelig takareal til å montere solceller på. For et gjennomsnittlig norsk bolighus er det typisk rundt 20–40 m².</string>
+
+    <!-- Months -->
+    <string name="month_january">Jan</string>
+    <string name="month_february">Feb</string>
+    <string name="month_march">Mar</string>
+    <string name="month_april">Apr</string>
+    <string name="month_may">Mai</string>
+    <string name="month_june">Jun</string>
+    <string name="month_july">Jul</string>
+    <string name="month_august">Aug</string>
+    <string name="month_september">Sep</string>
+    <string name="month_october">Okt</string>
+    <string name="month_november">Nov</string>
+    <string name="month_december">Des</string>
+    <string name="search_for_a_location">Søk etter et sted</string>
+
+    <!-- Units & Symbols -->
+    <string name="square_meter_symbol">m²</string>
+    <string name="north_specifier">N</string>
+    <string name="south_specifier">S</string>
+    <string name="east_specifier">Ø</string>
+    <string name="west_specifier">V</string>
+    <string name="kilowatt_hour">kWh</string>
+    <string name="norwegian_krone">kr</string>
+    <string name="centimeter">cm</string>
+    <string name="oktas">oktas</string>
+    <string name="celsius">°C</string>
+
+    <!-- Content Descriptors -->
+    <string name="content_desc_back_button">Tilbakeknapp</string>
+    <string name="content_desc_choose_address">Knapp til å velge adresse</string>
+    <string name="content_desc_enter_area">Tekstfelt til å skive inn takareal</string>
+    <string name="content_desc_estimate_button">Knapp til å estimere</string>
+    <string name="content_desc_guide_card">Beskrivelse av appens bruk</string>
+    <string name="content_desc_address_search_bar">Søkefelt til adresse</string>
+    <string name="content_desc_map">Norgeskart</string>
+    <string name="content_desc_check_button">Ferdigknapp</string>
+    <string name="content_desc_estimate_toggle_switch">Bytt mellom strøm generert og penger spart</string>
+    <string name="content_desc_estimate_chart">Linjediagram over estimering</string>
+    <string name="content_desc_weather_button">Knapp til å se værdata</string>
+    <string name="content_desc_weather_chart">Linjediagram over værdata</string>
+    <string name="content_desc_weather_toggle_switch">Bytt mellom værfenomener</string>
+    <string name="content_desc_dissapointed_expression">Skuffet ansikt</string>
+    <string name="content_desc_app_overview">1. Velg posisjon 2. Fyll inn takareal 3. Få estimat</string>
+    <string name="content_desc_search_button">Knapp til å åpne søkefelt</string>
+    <string name="content_desc_clear_button">Knapp til å tømme søkefelt</string>
+    <string name="content_desc_roofSize_info_icon">Info om takareal</string>
+
+    <string name="use_my_position">Knapp for å bruke nåværende posisjon</string>
+
+</resources>
